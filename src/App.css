@@ -1,0 +1,64 @@
+.container{
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
+.product-list{
+  border: 4px solid rgb(112, 112, 112);
+  width: fit-content;
+  height: 250px;
+  margin: auto;
+  padding: 10px;
+}
+.product-list > h1{
+  text-align: center;
+}
+.products{
+  background-color: rgb(112, 112, 112);
+  color: white;
+  margin-bottom: 10px;
+  width: 400px;
+  display: flex;
+  height: 40px;
+}
+.products > p{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.products > button{
+  height: 30px;
+  margin-top: 10px;
+}
+.prod-amount{
+  border: 4px solid rgb(112, 112, 112);
+  width: 400px;
+  padding: 10px;
+  color: white;
+}
+.prod-amount > .prices > h4{
+  text-align: center;
+  margin: 0%;
+  color: black;
+}
+.prod-amount > .prices > h1{
+  text-align: center;
+  margin: 0%;
+  color: black;
+}
+.prod-amount > .prices{
+  height: 200px;
+}
+.prod-data{
+  display: flex;
+  padding-left: 10px;
+  background-color: rgb(112, 112, 112);
+  margin-bottom: 10px;
+}
+.prod-data > p{
+  margin-left: 10px;
+}
+.total{
+  margin-top: 20px;
+  background-color: rgb(112, 112, 112);
+  text-align: center;
+}
